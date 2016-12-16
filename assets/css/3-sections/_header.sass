@@ -1,67 +1,104 @@
 header
-  @extend %background-image
-  background:
-    position: 30px 20px, 50% 50%
-    image: url(../img/#{$logo-path}), url(../img/#{$hero-path})
-  padding-bottom: 50px
+  height: 80px
+  position: relative
 
+  .menu-svg
+    position: absolute
+    left: 2em
+    cursor: pointer
+    width: 2em
 
-  .logo
-    +size(50px)
-    float: left
-    margin: 10px 0 0 30px
+  a.logo
+    position: absolute
+    top: 0
+    right: 0
+    bottom: 0
+    left: 0
+    margin: auto
+    width: 90px
+    color: $textColor
 
-    path
-      fill: rgba(0,0,0,0.4)
-
-  nav
-    float: right
-    padding: 30px 30px 0 0
-
-    a
-      display: inline-block
-      margin-left: 20px
-
-      color: rgba(0,0,0,0.7)
-      @extend %small-bold
-
-      &:hover
-        color: rgba(0,0,0,1)
-
-  h1
-    text-align: center
-    font:
-      size: 72px
-      weight: 700
-    color: white
-    text-transform: uppercase
-    letter-spacing: 0.05em
-    margin-bottom: 20px
-    clear: both
-    padding-top: 100px
-
+    img
+      width: 90px
+      height: 80px
 
     span
-      display: inline-block
-      padding: 0.2em 0.5em
-      border: white solid 10px
-
-  .kicker
-    @extend %small-bold
-    text-align: center
-    letter-spacing: 0.05em
-    color: white
-    line-height: 1
-
-@media (max-width: 640px)
-  header
-    background:
-      position: 50% 20px, 50% 50%
-
-    nav
-      float: none
+      position: absolute
+      top: 0
+      bottom: 0
+      left: 0
+      right: 0
+      margin: auto
+      width: 80px
+      height: 50px
       text-align: center
-      padding-top: 90px
-
-    h1
-      padding-top: 0px
+      font-size: 2em
+      line-height: 50px
+      color: $textColor
+      font-family: Acme
+//   @extend %background-image
+//   background:
+//     position: 30px 20px, 50% 50%
+//     image: url(../img/#{$logo-path}), url(../img/#{$hero-path})
+//   padding-bottom: 50px
+//
+//
+//   .logo
+//     +size(50px)
+//     float: left
+//     margin: 10px 0 0 30px
+//
+//     path
+//       fill: rgba(0,0,0,0.4)
+//
+//   nav
+//     float: right
+//     padding: 30px 30px 0 0
+//
+//     a
+//       display: inline-block
+//       margin-left: 20px
+//
+//       color: rgba(0,0,0,0.7)
+//       @extend %small-bold
+//
+//       &:hover
+//         color: rgba(0,0,0,1)
+//
+//   h1
+//     text-align: center
+//     font:
+//       size: 72px
+//       weight: 700
+//     color: white
+//     text-transform: uppercase
+//     letter-spacing: 0.05em
+//     margin-bottom: 20px
+//     clear: both
+//     padding-top: 100px
+//
+//
+//     span
+//       display: inline-block
+//       padding: 0.2em 0.5em
+//       border: white solid 10px
+//
+//   .kicker
+//     @extend %small-bold
+//     text-align: center
+//     letter-spacing: 0.05em
+//     color: white
+//     line-height: 1
+//
+// @media (max-width: 640px)
+//   header
+//     background:
+//       position: 50% 20px, 50% 50%
+//
+//     nav
+//       float: none
+//       text-align: center
+//       padding-top: 90px
+//
+//     h1
+//       padding-top: 0px

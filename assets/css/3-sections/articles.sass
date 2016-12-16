@@ -1,0 +1,42 @@
+.articles
+  .inner-container
+    text-align: center
+
+  .list-container
+    text-align: start
+
+    ul.article-list
+      width: 500px
+
+      li
+        display: inline-block
+        width: 240px
+        vertical-align: top
+
+        .article-wrapper
+          padding: 10px
+          margin: 10px
+          border: 1px solid lightgray
+          min-height: 254px
+
+          .article-title
+            font-size: 1.2em
+            color: $headlineColor
+            font-weight: 600
+            min-height: 50px
+            max-height: 80px
+            overflow: hidden
+            position: relative
+
+            span
+              display: inline-block
+              vertical-align: bottom
+              line-height: normal
+
+          span.category
+            display: block
+            margin: 10px 0
+
+          p
+            max-height: 110px
+            overflow: hidden

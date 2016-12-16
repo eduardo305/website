@@ -1,0 +1,41 @@
+.home-hero
+  padding: 20px 40px 0
+  background: #EEEEEE
+
+.top-rectangle
+  height: 500px
+  position: absolute
+  background: #F9EC31
+  //background: url('https://static.vecteezy.com/system/resources/previews/000/101/236/original/vector-free-abstract-background-12.jpg')
+  width: 100%
+  top: 80px
+  z-index: -1
+  overflow: hidden
+
+  &::after
+    content: ''
+    background: white
+    height: 400px
+    width: 8000px
+    margin-left: -4000px
+    bottom: -50%
+    position: absolute
+    +transform(rotate(-6deg))
+
+.container
+  max-width: 860px
+  margin: 0 auto
+
+  .left-content
+    .mission
+      text-align: center
+      max-width: 400px
+      margin: auto
+
+  .right-content
+    .self-image
+      background: url(http://www.1designshop.com/wp-content/uploads/2015/12/1dsp-20151212-002.png)
+      background-repeat: no-repeat
+      background-position: center center
+      background-size: contain
+      height: 200px
