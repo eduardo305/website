@@ -602,10 +602,6 @@ ul {
   list-style-type: none;
   padding: 0; }
 
-.main-container {
-  margin: 0 auto;
-  max-width: 960px; }
-
 .inner-container {
   margin: 0 auto;
   max-width: 500px; }
@@ -705,17 +701,20 @@ header {
     background-size: contain;
     height: 200px; }
 
-.about .inner-container {
-  text-align: center; }
-  .about .inner-container ul.secondary-roles {
-    list-style-type: none;
-    padding: 0; }
-    .about .inner-container ul.secondary-roles hr {
-      width: 100px;
-      border-top: 1px solid green;
-      margin: 10px auto; }
-    .about .inner-container ul.secondary-roles li {
-      display: inline-block; }
+section.about {
+  background: #fff;
+  padding-bottom: 0; }
+  section.about .inner-container {
+    text-align: center; }
+    section.about .inner-container ul.secondary-roles {
+      list-style-type: none;
+      padding: 0; }
+      section.about .inner-container ul.secondary-roles hr {
+        width: 100px;
+        border-top: 1px solid green;
+        margin: 10px auto; }
+      section.about .inner-container ul.secondary-roles li {
+        display: inline-block; }
 
 .articles .inner-container {
   text-align: center; }
