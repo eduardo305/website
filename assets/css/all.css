@@ -706,6 +706,9 @@ section.about {
   padding-bottom: 0; }
   section.about .inner-container {
     text-align: center; }
+    section.about .inner-container span {
+      border-bottom: 1px dotted #f08080;
+      font-weight: bold; }
     section.about .inner-container ul.secondary-roles {
       list-style-type: none;
       padding: 0; }
@@ -800,7 +803,7 @@ footer {
         display: inline-block;
         margin: 10px; }
         footer .inner-container ul.social-media li span:hover {
-          color: rgba(0, 0, 0, 0.7); }
+          color: #8DC6FF; }
     footer .inner-container #copyright {
       font-size: 0.8em; }
 
