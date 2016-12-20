@@ -36,6 +36,35 @@ header
       line-height: 50px
       color: $textColor
       font-family: Acme
+
+  nav
+    display: none
+
+
+@media (min-width: 640px)
+  .menu-svg
+    display: none
+
+  header.container
+    +display(flex)
+    +flex-direction(row)
+    +justify-content(space-between)
+    +align-items(center)
+
+    nav
+      display: block
+
+      ul
+        li
+          display: inline-block
+          margin: 0 20px
+          font-weight: bold
+
+    a.logo
+      position: relative
+      margin: 0
+
+
 //   @extend %background-image
 //   background:
 //     position: 30px 20px, 50% 50%
