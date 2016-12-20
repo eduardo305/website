@@ -751,23 +751,58 @@ header {
           max-height: 110px;
           overflow: hidden; }
 
-footer .lockup {
-  max-width: 320px;
-  margin: auto;
-  text-align: center; }
-footer .inner-container {
-  padding: 50px 30px;
-  color: #22313F; }
-  footer .inner-container span.social-media-title {
-    margin: 10px;
-    font-size: 1em;
-    font-family: cursive; }
-  footer .inner-container ul.social-media {
-    margin: 0; }
-    footer .inner-container ul.social-media li {
-      display: inline-block;
-      margin: 10px; }
-      footer .inner-container ul.social-media li span:hover {
-        color: rgba(0, 0, 0, 0.7); }
+footer {
+  background: #333; }
+  footer .lockup {
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    box-orient: horizontal;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-direction: row;
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;
+    box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -ms-justify-content: space-between;
+    -o-justify-content: space-between;
+    justify-content: space-between;
+    -ms-flex-pack: justify;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    box-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    -o-align-items: center;
+    align-items: center;
+    -ms-flex-align: center; }
+    footer .lockup .wrapper a.logo {
+      font-size: 2em; }
+  footer .inner-container {
+    padding: 50px 30px;
+    color: #D3D3D3; }
+    footer .inner-container hr {
+      margin: 0px 0px 5px; }
+    footer .inner-container a {
+      color: #FFF; }
+    footer .inner-container ul.social-media {
+      margin: 0; }
+      footer .inner-container ul.social-media li {
+        display: inline-block;
+        margin: 10px; }
+        footer .inner-container ul.social-media li span:hover {
+          color: rgba(0, 0, 0, 0.7); }
+    footer .inner-container #copyright {
+      font-size: 0.8em; }
 
 /*# sourceMappingURL=all.css.map */

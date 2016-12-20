@@ -1,18 +1,24 @@
 footer
-
+  background: $headlineColor
   .lockup
-    max-width: 320px
-    margin: auto
-    text-align: center
+    +display(flex)
+    +flex-direction(row)
+    +justify-content(space-between)
+    +align-items(center)
+
+    .wrapper
+      a.logo
+        font-size: 2em
 
   .inner-container
     padding: 50px 30px
-    color: $textColor
+    color: $bgcolor
 
-    span.social-media-title
-      margin: 10px
-      font-size: 1em
-      font-family: cursive
+    hr
+      margin: 0px 0px 5px
+
+    a
+      color: #FFF
 
     ul.social-media
       margin: 0
@@ -24,3 +30,7 @@ footer
         span
           &:hover
             color: rgba(0,0,0,0.7)
+
+
+    #copyright
+      font-size: 0.8em
