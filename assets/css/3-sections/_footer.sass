@@ -1,26 +1,26 @@
 footer
-  @extend %background-image
-  background-image: url(../img/#{$logo-path}), url(../img/#{$hero-path})
 
   .lockup
+    max-width: 320px
+    margin: auto
+    text-align: center
+
+  .inner-container
     padding: 50px 30px
-    +clearfix
+    color: $textColor
 
-    .content-wrap
-      float: left
-      margin-left: 80px
+    span.social-media-title
+      margin: 10px
+      font-size: 1em
+      font-family: cursive
 
-      .copyright
-        margin: 0
-        text-transform: uppercase
-        font-size: 12px
-        color: rgba(0,0,0,0.4)
+    ul.social-media
+      margin: 0
 
-      a
-        @extend %small-bold
-        color: rgba(0,0,0,0.5)
+      li
         display: inline-block
-        margin-right: 30px
+        margin: 10px
 
-        &:hover
-          color: rgba(0,0,0,0.7)
+        span
+          &:hover
+            color: rgba(0,0,0,0.7)

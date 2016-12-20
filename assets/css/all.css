@@ -613,6 +613,9 @@ ul {
 .scrollable {
   overflow: scroll; }
 
+.logo {
+  font-family: Acme; }
+
 @media screen and (max-width: 480px) {
   h3 {
     padding: 50px 0 50px; } }
@@ -747,5 +750,24 @@ header {
         .articles .list-container ul.article-list li .article-wrapper p {
           max-height: 110px;
           overflow: hidden; }
+
+footer .lockup {
+  max-width: 320px;
+  margin: auto;
+  text-align: center; }
+footer .inner-container {
+  padding: 50px 30px;
+  color: #22313F; }
+  footer .inner-container span.social-media-title {
+    margin: 10px;
+    font-size: 1em;
+    font-family: cursive; }
+  footer .inner-container ul.social-media {
+    margin: 0; }
+    footer .inner-container ul.social-media li {
+      display: inline-block;
+      margin: 10px; }
+      footer .inner-container ul.social-media li span:hover {
+        color: rgba(0, 0, 0, 0.7); }
 
 /*# sourceMappingURL=all.css.map */
