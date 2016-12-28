@@ -160,10 +160,10 @@ td, th {
   src: local("Open Sans Bold"), local("OpenSans-Bold"), url(//themes.googleusercontent.com/static/fonts/opensans/v8/k3k702ZOKiLJc3WVjuplzKRDOzjiPcYnFooOUGCOsRk.woff) format("woff"); }
 @font-face {
   font-family: 'Acme';
-  font-style: normal;
   font-weight: 400;
-  src: local("Acme"), local("Acme-Regular"), url(https://fonts.gstatic.com/s/acme/v5/FDMh4aixPTtSeEPULD_zPPesZW2xOQ-xsNqO47m55DA.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+  font-style: normal;
+  src: url("./1-tools/fonts/Acme-regular/Acme-regular.eot");
+  src: url("./1-tools/fonts/Acme-regular/Acme-regular.eot?#iefix") format("embedded-opentype"), local("Acme"), local("Acme-regular"), url("./1-tools/fonts/Acme-regular/Acme-regular.woff2") format("woff2"), url("./1-tools/fonts/Acme-regular/Acme-regular.woff") format("woff"), url("./1-tools/fonts/Acme-regular/Acme-regular.ttf") format("truetype"), url("./1-tools/fonts/Acme-regular/Acme-regular.svg#Acme") format("svg"); }
 @font-face {
   font-family: 'Yellowtail';
   font-style: normal;
